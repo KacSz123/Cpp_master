@@ -1,0 +1,4 @@
+a to litera!
+7 to cyfra!
+' ' to spacja!
+, to znak interpunkcyjny!
