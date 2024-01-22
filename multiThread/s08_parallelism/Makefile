@@ -1,0 +1,28 @@
+# the compiler: gcc for C program, define as g++ for C++
+CC = g++
+
+# PATH = .\ 
+# compiler flags:
+#  -g     - this flag adds debugging information to the executable file
+#  -Wall  - this flag is used to turn on most compiler warnings
+CFLAGS  = -std=c++1z -g -Wall -pedantic 
+CLIBS =  -lpthread -ltbb
+# The build target 
+TARGET = r01_parall01
+# r01_mutex
+# r02_chrono
+
+all: $(TARGET)
+ 
+$(TARGET): $(TARGET).cpp
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp $(CLIBS)
+
+run:
+	.\$(TARGET).exe
+
+clean:
+	rm $(TARGET)
+
+# cleanExec:
+# 	@echo 123
+# 	rm .\$(PATH)$(TARGET).exe
