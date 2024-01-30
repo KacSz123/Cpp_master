@@ -1,0 +1,11 @@
+all: main.o
+
+OPTIONS = -pedantic -Wall
+MYCLASS = myclass
+OUTPUT = m1
+
+main.o:
+	g++ main2.cpp
+#g++ -c ${OPTIONS} ${MYCLASS}.cpp -o ${MYCLASS}.o
+# echo "aa"
+#	g++ ${OPTIONS} main.cpp ${MYCLASS}.o -o ${OUTPUT}
