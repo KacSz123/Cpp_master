@@ -1,0 +1,12 @@
+
+
+Rule of 3: jezeli klasa potrzebuje jednego z: desktruktor, operator przypisania kopii, konst kopiujacy to potrzebuje wszystkich trzech c++03
+|
+|
+|
+ ----> Rule of 5: to samo ale dochodzi operator przypisania r-wartosci ref i konstr, kop r-val refc++  >=  c++11
+
+
+
+
+ Rule of 0:

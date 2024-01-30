@@ -1,5 +1,8 @@
 #include<iostream>
-
+/*!
+ * @brief MOvE semantics
+ * 
+ */
 using std::cin;
 using std::cout;
 using std::endl;

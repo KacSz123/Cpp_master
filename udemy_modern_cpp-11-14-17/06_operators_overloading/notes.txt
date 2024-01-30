@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+Shared pointer mają licznik kopii
+
+
+
+unique pointery nie mogą być kopiowane, TYLKO przenoszone
